@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload</title>
+    <style>
+        body {
+            width: 35em;
+            margin: 0 auto;
+            font-family: Tahoma, Verdana, Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Upload a document</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <p>
+            <label>Select a file:</label>
+            <input type="file" name="file">
+        </p>
+        <p>
+            <input type="submit" value="Upload">
+        </p>
+    </form>
+    <a href="/">Back</a>
+</body>
+</html>

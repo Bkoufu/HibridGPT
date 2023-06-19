@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search</title>
+    <style>
+        body {
+            width: 35em;
+            margin: 0 auto;
+            font-family: Tahoma, Verdana, Arial, sans-serif;
+        }
+        .answer {
+            margin-top: 1em;
+            padding: 1em;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Search the document database</h1>
+    <form action="/search" method="post">
+        <p>
+            <label>Enter your query:</label>
+            <input type="text" name="query">
+        </p>
+        <p>
+            <input type="submit" value="Search">
+        </p>
+    </form>
+    {% if answers %}
+        <h2>Search results:</h2>
+        {% for answer in answers %}
+            <div class="answer">
+                <p>{{ answer }}</p>
+            </div>
+        {% endfor %}
+    {% else %}
+        <h2>No results found.</h2>
+    {% endif %}
+    <a href="/">Back</a>
+</body>
+</html>
