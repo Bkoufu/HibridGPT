@@ -36,7 +36,7 @@ path = os.environ.get('PATH')
 libreoffice_program_path = r"C:\Program Files\LibreOffice\program"
 # Add the LibreOffice program path to the current PATH
 os.environ['PATH'] = libreoffice_program_path + os.pathsep + path
-source_directory = r'E:\python\tak2spec\source_documents'
+source_directory = r'*****\source_documents'
 
 load_dotenv()
 
