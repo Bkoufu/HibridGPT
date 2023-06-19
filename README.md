@@ -6,7 +6,7 @@ It is very fast based on a caching system . see below # How does it work?
 
 Built with [LangChain](https://github.com/hwchase17/langchain), [GPT4All](https://github.com/nomic-ai/gpt4all), [LlamaCpp](https://github.com/ggerganov/llama.cpp), [Chroma](https://www.trychroma.com/) and [SentenceTransformers](https://www.sbert.net/).
 
-<img width="902" alt="demo" src="https://user-images.githubusercontent.com/721666/236942256-985801c9-25b9-48ef-80be-3acbb4575164.png">
+<img width="902" alt="demo" src="[https://user-images.githubusercontent.com/721666/236942256-985801c9-25b9-48ef-80be-3acbb4575164.png](https://github.com/Bkoufu/HibridGPT/blob/main/private.gif)">
 
 # Environment Setup
 In order to set your environment up to run the code here, first install all requirements:
